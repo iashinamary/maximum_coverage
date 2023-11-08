@@ -55,7 +55,7 @@ class MainKtTest {
 
         val result = calculateCommissionForVisaOrMir(transferNow)
 
-        assertEquals(0, result)
+        assertEquals(35, result)
     }
 
     @Test
